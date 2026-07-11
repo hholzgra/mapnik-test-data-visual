@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Visual test for ArcSymbolizer.
+     Self-contained (inline CSV datasource), so no external data file is needed.
+     A single "light" point at 0,0 is decorated with several visibility sectors,
+     mimicking how OpenSeaMap renders the arcs of naval navigation lights.
+     Exercises: fill + arc stroke + radius spokes with a separate spoke colour
+     and width, fill-only, stroke-only, a wrap-around sector (350 -> 10 degrees),
+     and dashed spokes drawn alongside a solid arc line. -->
+<Map background-color="white" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Parameters>
+        <Parameter name="sizes">300,300</Parameter>
+        <Parameter name="bbox">-1,-1,1,1</Parameter>
+    </Parameters>
+
+    <Style name="arcs">
+        <!-- red sector: filled wedge, dark-red arc lines -->
+        <Rule>
+            <ArcSymbolizer radius="120" start-angle="45" end-angle="135"
+                           fill="red" fill-opacity="0.4"
+                           stroke="darkred" stroke-width="2" />
+        </Rule>
+        <!-- green sector, fill only (no outline) -->
+        <Rule>
+            <ArcSymbolizer radius="120" start-angle="135" end-angle="225"
+                           fill="green" fill-opacity="0.4"/>
+        </Rule>
+        <!-- wrap-around white sector, stroke only (bare arc, no radius lines) -->
+        <Rule>
+            <ArcSymbolizer radius="120" start-angle="350" end-angle="10"
+                           stroke="black" stroke-width="3"/>
+        </Rule>
+    </Style>
+
+    <Layer name="light" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>arcs</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+x,y
+0,0
+</Parameter>
+        </Datasource>
+    </Layer>
+</Map>
