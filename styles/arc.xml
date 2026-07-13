@@ -13,9 +13,14 @@
     </Parameters>
 
     <Style name="arcs">
+        <!-- wrap-around white sector, stroke only (bare arc, no radius lines) -->
+        <Rule>
+            <ArcSymbolizer radius="120" start-angle="300" end-angle="10"
+                           stroke="black" stroke-width="3"/>
+        </Rule>
         <!-- red sector: filled wedge, dark-red arc lines -->
         <Rule>
-            <ArcSymbolizer radius="120" start-angle="45" end-angle="135"
+            <ArcSymbolizer radius="120" start-angle="45" end-angle="120"
                            fill="red" fill-opacity="0.4"
                            stroke="darkred" stroke-width="2" />
         </Rule>
@@ -24,11 +29,15 @@
             <ArcSymbolizer radius="120" start-angle="135" end-angle="225"
                            fill="green" fill-opacity="0.4"/>
         </Rule>
-        <!-- wrap-around white sector, stroke only (bare arc, no radius lines) -->
-        <Rule>
-            <ArcSymbolizer radius="120" start-angle="350" end-angle="10"
-                           stroke="black" stroke-width="3"/>
-        </Rule>
+	<!-- black thin dashed radius, fat dashed red arc, no fill -->
+	<Rule>
+            <ArcSymbolizer radius="120" start-angle="235" end-angle="255"
+                           stroke="darkred" stroke-width="10"
+                           radius-stroke="black" radius-stroke-width="1"
+                           arc-stroke-dasharray="5,5"
+                           radius-stroke-dasharray="3,3" radius-stroke-dashoffset="1.5"
+	    />
+	</Rule>
     </Style>
 
     <Layer name="light" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">

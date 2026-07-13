@@ -3,5 +3,13 @@
 <svg width="300px" height="300px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
 <rect x="0" y="0" width="300px" height="300px" fill="#ffffff"/>
 <g id="light" inkscape:groupmode="layer" inkscape:label="light">
+<path d="M 150,150 L -57.8461,30 M 150,150 L 191.676,-86.3539" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="6.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M -57.8461,30 A 240,240 0 0,1 191.676,-86.3539" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="6.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 150,150 L 319.706,-19.7056 A 240,240 0 0,1 357.846,270 Z" fill="#ff0000" fill-opacity="0.4" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 150,150 L 319.706,-19.7056 M 150,150 L 357.846,270" fill="none" fill-opacity="1.0" stroke="#8b0000" stroke-opacity="1.0" stroke-width="4.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 319.706,-19.7056 A 240,240 0 0,1 357.846,270" fill="none" fill-opacity="1.0" stroke="#8b0000" stroke-opacity="1.0" stroke-width="4.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 150,150 L 319.706,319.706 A 240,240 0 0,1 -19.7056,319.706 Z" fill="#008000" fill-opacity="0.4" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 150,150 L -46.5965,287.658 M 150,150 L -81.8222,212.117" stroke-dasharray="6.0,6.0" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="3.0px"/>
+<path d="M -46.5965,287.658 A 240,240 0 0,1 -81.8222,212.117" stroke-dasharray="10.0,10.0" fill="none" fill-opacity="1.0" stroke="#8b0000" stroke-opacity="1.0" stroke-width="20.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
 </g>
 </svg>
