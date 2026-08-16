@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Visual test for the ArcSymbolizer's label.
+     Self-contained (inline CSV datasource), so no external data file is needed.
+     Six lights in a 2x3 grid, each with one visibility sector and a label; the
+     sector angles and the label text come from feature attributes, so this also
+     covers expression-driven start-angle / end-angle.
+
+     Exercises both placement modes and both reading directions:
+       - a label short enough for its arc is bent along the outside of the arc
+       - on the lower half of the circle that bent text is turned around so it
+         does not come out upside down
+       - a label too long for its arc runs radially instead, outward on the
+         right half and back towards the arc on the left half so it always
+         reads left to right
+       - the same in a right-to-left script (Arabic, Hebrew), which needs no
+         special handling because text_line already holds its glyphs in visual
+         order
+
+     The runner renders every style at scale factor 1.0 and 2.0 into a canvas of
+     this fixed size, so the drawing doubles while the centres stay put. Radius
+     and text size are kept small enough that even the doubled radial labels
+     neither overlap their neighbour nor run off the edge.
+
+     Note the SVG backend has no text support at all (its process(text_symbolizer)
+     is a no-op) and the Grid backend does not implement ArcSymbolizer, so their
+     reference output shows bare arcs and nothing respectively. -->
+<Map background-color="white" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Parameters>
+        <Parameter name="sizes">900,600</Parameter>
+        <Parameter name="bbox">-4.5,-3,4.5,3</Parameter>
+    </Parameters>
+
+    <Style name="arc-labels">
+        <Rule>
+            <ArcSymbolizer radius="30"
+                           start-angle="[a0]" end-angle="[a1]"
+                           fill="steelblue" fill-opacity="0.15"
+                           stroke="black" stroke-width="1"
+                           text="[label]" text-face-name="DejaVu Sans Book"
+                           text-size="9" text-fill="black"
+                           text-halo-fill="white" text-halo-radius="1"
+                           text-offset="3"/>
+        </Rule>
+    </Style>
+
+    <Layer name="lights" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>arc-labels</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+x,y,a0,a1,label
+-2.25,2,300,60,"along the arc"
+2.25,2,120,240,"flipped below"
+-2.25,0,70,90,"outward text"
+2.25,0,250,270,"inward text"
+-2.25,-2,300,60,"دير البلح"
+2.25,-2,250,270,"עיריית גבעתיים"
+</Parameter>
+        </Datasource>
+    </Layer>
+</Map>

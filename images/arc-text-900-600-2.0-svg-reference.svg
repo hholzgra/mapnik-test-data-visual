@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="900px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<rect x="0" y="0" width="900px" height="600px" fill="#ffffff"/>
+<g id="lights" inkscape:groupmode="layer" inkscape:label="lights">
+<path d="M 225,100 L 173.038,70 A 60,60 0 0,1 276.962,70 Z" fill="#4682b4" fill-opacity="0.15" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 225,100 L 173.038,70 M 225,100 L 276.962,70" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 173.038,70 A 60,60 0 0,1 276.962,70" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 675,100 L 705,151.962 A 60,60 0 0,1 645,151.962 Z" fill="#4682b4" fill-opacity="0.15" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 675,100 L 705,151.962 M 675,100 L 645,151.962" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 705,151.962 A 60,60 0 0,1 645,151.962" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 225,300 L 281.382,279.479 A 60,60 0 0,1 285,300 Z" fill="#4682b4" fill-opacity="0.15" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 225,300 L 281.382,279.479 M 225,300 L 285,300" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 281.382,279.479 A 60,60 0 0,1 285,300" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 675,300 L 618.618,320.521 A 60,60 0 0,1 615,300 Z" fill="#4682b4" fill-opacity="0.15" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 675,300 L 618.618,320.521 M 675,300 L 615,300" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 618.618,320.521 A 60,60 0 0,1 615,300" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 225,500 L 173.038,470 A 60,60 0 0,1 276.962,470 Z" fill="#4682b4" fill-opacity="0.15" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 225,500 L 173.038,470 M 225,500 L 276.962,470" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 173.038,470 A 60,60 0 0,1 276.962,470" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 675,500 L 618.618,520.521 A 60,60 0 0,1 615,500 Z" fill="#4682b4" fill-opacity="0.15" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 675,500 L 618.618,520.521 M 675,500 L 615,500" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M 618.618,520.521 A 60,60 0 0,1 615,500" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>
